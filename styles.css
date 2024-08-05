@@ -1,0 +1,96 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+img {
+	width: 80px;
+}
+
+h2,
+img {
+	margin-bottom: 16px;
+}
+
+.container {
+	color: white;
+	width: 100%;
+	background-color: rgb(3, 3, 48);
+	padding: 40px;
+}
+
+.container .footer {
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+	gap: 10px;
+	max-width: 780px;
+	margin: 0 auto 20px auto;
+}
+
+.footer p {
+	font-size: 1.1rem;
+	margin-bottom: 6px;
+}
+
+P.email {
+	margin: 20px 0;
+}
+.container .copy {
+	border-top: 2px solid white;
+	padding-top: 20px;
+	font-size: 1.15rem;
+	text-align: center;
+	max-width: 740px;
+	margin: 0 auto;
+}
+
+.box1 {
+	max-width: 200px;
+}
+
+.box3 p {
+	margin-bottom: 12px;
+}
+
+input[type='text'] {
+	width: 120%;
+	border: none;
+	border-bottom: 2px solid white;
+	background: transparent;
+	background-image: url('mail.png'), url('right-arrow.png');
+	background-position: 10px 8px, 240px 8px;
+	background-repeat: no-repeat;
+	padding: 12px 20px 20px 46px;
+}
+
+.input {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+input[type='text']::placeholder {
+	color: white;
+}
+
+.socials {
+	margin-top: 40px;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	gap: 10px;
+}
+
+.box4 img {
+	width: 50px;
+}
